@@ -1,12 +1,12 @@
-/**
- * Created by sridhar on 12/19/2014.
- */
 package com.example.helloworld;
 
 import io.dropwizard.Configuration;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import org.hibernate.validator.constraints.NotEmpty;
 
+/**
+ * Created by sridhar on 12/19/2014.
+ */
 public class HelloWorldConfiguration extends Configuration {
     @NotEmpty
     private String template;
